@@ -7,69 +7,97 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1 class="app-title">Virtual Band Manager</h1>
-        <p class="tagline">Build Your Musical Empire</p>
+    <header class="main-header">
+        <h1>🎸 Virtual Band Manager</h1>
+        <div class="band-info">
+            <h2>The Lightning Bolts</h2>
+            <p>Level 5 • 3 Members • $2,450 Budget</p>
+        </div>
     </header>
 
     <main class="dashboard">
-        <div class="section-grid">
-            <div class="section-card">
-                <div class="card-icon">🎵</div>
-                <h2>Band Management</h2>
-                <p>Manage your band members, schedules, and performance stats</p>
-                <button class="action-btn">Manage Band</button>
+        <div class="dashboard-grid">
+            <div class="dashboard-card band-overview">
+                <h3>🎵 Band Overview</h3>
+                <div class="band-stats">
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Albums</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Shows Played</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">8.5k</span>
+                        <span class="stat-label">Fans</span>
+                    </div>
+                </div>
+                <button class="action-btn">View Details</button>
             </div>
 
-            <div class="section-card">
-                <div class="card-icon">💿</div>
-                <h2>Album Designer</h2>
-                <p>Create stunning album covers and track listings</p>
-                <button class="action-btn">Design Albums</button>
+            <div class="dashboard-card album-creator">
+                <h3>💿 Create Albums</h3>
+                <p>Design album covers, add tracks, and release your music to the world!</p>
+                <div class="recent-albums">
+                    <div class="album-mini">Electric Dreams</div>
+                    <div class="album-mini">Rock & Roll Heart</div>
+                    <div class="album-mini">+ New Album</div>
+                </div>
+                <button class="action-btn">Create New Album</button>
             </div>
 
-            <div class="section-card">
-                <div class="card-icon">👥</div>
-                <h2>Characters</h2>
-                <p>Customize your band members' looks and personalities</p>
-                <button class="action-btn">Edit Characters</button>
+            <div class="dashboard-card stage-designer">
+                <h3>🎤 Stage Designer</h3>
+                <p>Build epic concert stages with lights, effects, and custom layouts!</p>
+                <div class="stage-preview">
+                    <div class="mini-stage">
+                        <div class="stage-element">🎸</div>
+                        <div class="stage-element">🥁</div>
+                        <div class="stage-element">🎹</div>
+                    </div>
+                </div>
+                <button class="action-btn">Design Stage</button>
             </div>
 
-            <div class="section-card">
-                <div class="card-icon">🔍</div>
-                <h2>Recruitment</h2>
-                <p>Scout and recruit new talented musicians</p>
-                <button class="action-btn">Find Talent</button>
+            <div class="dashboard-card musician-recruiter">
+                <h3>👥 Recruit Musicians</h3>
+                <p>Find talented artists to join your band and take your sound to the next level!</p>
+                <div class="available-musicians">
+                    <div class="musician-card">
+                        <span>🎸 Alex - Guitarist</span>
+                        <span class="skill-level">★★★★☆</span>
+                    </div>
+                    <div class="musician-card">
+                        <span>🎹 Sam - Keyboardist</span>
+                        <span class="skill-level">★★★☆☆</span>
+                    </div>
+                </div>
+                <button class="action-btn">Browse Musicians</button>
             </div>
 
-            <div class="section-card">
-                <div class="card-icon">👕</div>
-                <h2>Stage Outfits</h2>
-                <p>Design epic costumes and stage wear</p>
-                <button class="action-btn">Style Outfits</button>
+            <div class="dashboard-card character-customizer">
+                <h3>🎭 Character Customizer</h3>
+                <p>Customize your band members' looks, outfits, and stage presence!</p>
+                <div class="character-preview">
+                    <div class="character-avatar">👨‍🎤</div>
+                    <div class="customization-options">
+                        <span class="option">Hair</span>
+                        <span class="option">Outfit</span>
+                        <span class="option">Instrument</span>
+                    </div>
+                </div>
+                <button class="action-btn">Customize Band</button>
             </div>
 
-            <div class="section-card">
-                <div class="card-icon">🎨</div>
-                <h2>Band Aesthetic</h2>
-                <p>Define your band's overall visual identity and brand</p>
-                <button class="action-btn">Set Aesthetic</button>
-            </div>
-        </div>
-
-        <div class="stats-panel">
-            <h3>Band Stats</h3>
-            <div class="stat-item">
-                <span class="stat-label">Fame Level:</span>
-                <span class="stat-value">★★★☆☆</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-label">Albums Released:</span>
-                <span class="stat-value">3</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-label">Band Members:</span>
-                <span class="stat-value">5</span>
+            <div class="dashboard-card quick-actions">
+                <h3>⚡ Quick Actions</h3>
+                <div class="quick-buttons">
+                    <button class="quick-btn">Book Show</button>
+                    <button class="quick-btn">Practice Session</button>
+                    <button class="quick-btn">Check Fan Mail</button>
+                    <button class="quick-btn">Studio Time</button>
+                </div>
             </div>
         </div>
     </main>
